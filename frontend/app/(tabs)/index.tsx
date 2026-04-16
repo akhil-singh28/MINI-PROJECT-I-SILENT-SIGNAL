@@ -63,13 +63,11 @@ export default function App() {
           <Text style={styles.resetText}>RESET</Text>
         </TouchableOpacity>
       )}
-
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-
   container: {
     flexGrow: 1,
     justifyContent: 'center',
@@ -78,14 +76,12 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
     backgroundColor: '#0f172a'
   },
-
   title: {
     fontSize: 28,
     color: '#ffffff',
     fontWeight: 'bold',
     marginBottom: 15
   },
-
   subtitle: {
     fontSize: 15,
     color: '#94a3b8',
@@ -93,7 +89,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingHorizontal: 20
   },
-
   button: {
     width: 250,
     height: 250,
@@ -108,19 +103,16 @@ const styles = StyleSheet.create({
     shadowRadius: 20,
     elevation: 20
   },
-
   greenButton: {
     backgroundColor: '#22c55e',
     shadowColor: '#22c55e'
   },
-
   buttonText: {
     color: '#fff',
     fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center'
   },
-
   resetButton: {
     marginTop: 30,
     paddingVertical: 10,
@@ -128,7 +120,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#8693a7',
     borderRadius: 10
   },
-
   resetText: {
     color: '#fff',
     fontSize: 20,
