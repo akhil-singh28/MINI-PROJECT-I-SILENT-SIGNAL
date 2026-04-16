@@ -4,15 +4,12 @@ import { useState } from 'react';
 export default function App() {
 
   const [sent, setSent] = useState(false);
-
-  //SMS FUNCTION
   const sendSMS = () => {
-    const phoneNumber = '___________________________________'; // apna emergency wala number likh sakte h
+    const phoneNumber = '___________________________________'; // apna emergency wala number likhna hai 
     const message = 'Emergency! I need help. Location: Mathura';
 
     Linking.openURL(`sms:${phoneNumber}?body=${message}`);
   };
-
   const handlePress = async () => {
     try {
       const response = await fetch("_______________________________________________", {   
@@ -34,20 +31,16 @@ export default function App() {
       alert("Error connecting to server");
     }
   };
-
   const handleReset = () => {
     setSent(false);
   };
-
   return (
     <ScrollView contentContainerStyle={styles.container}>
 
       <Text style={styles.title}>Emergency</Text>
-
       <Text style={styles.subtitle}>
         {sent ? "Alert Sent Successfully" : "Tap the button to send an immediate alert"}
       </Text>
-
       <TouchableOpacity
         style={[styles.button, sent && styles.greenButton]}
         onPress={handlePress}
