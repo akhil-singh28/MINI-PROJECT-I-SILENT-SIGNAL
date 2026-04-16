@@ -8,7 +8,9 @@ app = FastAPI()
 connection = pymysql.connect(
     host="localhost",
     user="root",
-    password="Akhil|2805",
+    password="___________________________________",          
+    
+    #write MySQL password
     database="emergency_db"
 )
 
@@ -18,11 +20,11 @@ class Alert(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "Backend Running Successfully 🚀"}
+    return {"message": "Backend Running Successfully"}
 
 @app.post("/send-alert")
 def send_alert(alert: Alert):
-    print("🚨 ALERT RECEIVED 🚨")
+    print(" ALERT RECEIVED ")
 
     cursor = connection.cursor()
 
