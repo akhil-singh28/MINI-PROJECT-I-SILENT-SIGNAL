@@ -76,15 +76,11 @@ npm start
 </pre>
 
 <h3>🔹 Database</h3>
+<pre>
 mysql -u root -p
 USE emergency_db;
 SHOW TABLES;
 SELECT * FROM emergency_alerts;
-
-<pre>
-cd backend
-venv\Scripts\activate
-uvicorn app.main:app --host 0.0.0.0 --port 8000
 </pre>
 
 <hr>
