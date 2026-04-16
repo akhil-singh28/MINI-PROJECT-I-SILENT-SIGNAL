@@ -1,16 +1,12 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pymysql
-
 app = FastAPI()
-
 # DB Connection
 connection = pymysql.connect(
     host="localhost",
     user="root",
-    password="___________________________________",          
-    
-    #write MySQL password
+    password="___________________________________",          # write MySQL password
     database="emergency_db"
 )
 
