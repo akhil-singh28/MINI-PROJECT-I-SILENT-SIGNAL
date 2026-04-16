@@ -26,7 +26,5 @@ def send_alert(alert: Alert):
 
     query = "INSERT INTO emergency_alerts (user_id, location) VALUES (%s, %s)"
     cursor.execute(query, (alert.user_id, alert.location))
-
     connection.commit()
-
     return {"message": "Alert saved in database"}
