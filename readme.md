@@ -104,9 +104,9 @@ POST /send-alert
 
 <h2>📸 Screenshots</h2>
 
-<p><img width="775" height="1600" alt="image" src="https://github.com/user-attachments/assets/a36a854b-8359-4e4c-b859-d9e8e321100f" />
+<p><img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/a36a854b-8359-4e4c-b859-d9e8e321100f" />
 
-  <img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/7969402b-d023-46a1-81f0-f57bf5dbad92" />
+  <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/7969402b-d023-46a1-81f0-f57bf5dbad92" />
 
 </p>
 
