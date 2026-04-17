@@ -64,7 +64,7 @@ Silent Signal/
 <pre>
 cd backend
 venv\Scripts\activate
-uvicorn app.main:app --host 0.0.0.0 --port 8000
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 </pre>
 
 <h3>🔹 Frontend</h3>
