@@ -1,34 +1,33 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pymysql
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# DB Connection
-connection = pymysql.connect(
-    host="localhost",
-    user="root",
-    password="Akhil|2805",
-    database="emergency_db"
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
-
-class Alert(BaseModel):
+class AlertData(BaseModel):
     user_id: int
     location: str
-
+history = []
 @app.get("/")
 def home():
-    return {"message": "Backend Running Successfully 🚀"}
-
+    return {"message": "Backend Running"}
 @app.post("/send-alert")
-def send_alert(alert: Alert):
-    print("🚨 ALERT RECEIVED 🚨")
-
-    cursor = connection.cursor()
-
-    query = "INSERT INTO emergency_alerts (user_id, location) VALUES (%s, %s)"
-    cursor.execute(query, (alert.user_id, alert.location))
-
-    connection.commit()
-
-    return {"message": "Alert saved in database"}
+def send_alert(data: AlertData):
+    history.append({
+        "user_id": data.user_id,
+        "location": data.location
+    })
+    return {
+        "success": True,
+        "message": "Alert Stored"
+    }
+@app.get("/history")
+def get_history():
+    return history
