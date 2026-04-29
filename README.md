@@ -136,27 +136,13 @@ CREATE TABLE contacts (<br>
 
 ## 📸 Screens Overview  <br>
 <p align="center">
-  <!-- Home Screen -->
-  <img width="200" src="https://github.com/user-attachments/assets/home-image-link" />
-  
-  <!-- Explore Screen -->
-  <img width="200" src="https://github.com/user-attachments/assets/explore-image-link" />
-  
-  <!-- Profile Screen -->
-  <img width="200" src="https://github.com/user-attachments/assets/profile-image-link" />
-  
-  <!-- GPS Live Tracking -->
-  <img width="200" src="https://github.com/user-attachments/assets/gps-live-image-link" />
-  
-  <!-- GPS Coordinates -->
-  <img width="200" src="https://github.com/user-attachments/assets/gps-image-link" />
-  
-  <!-- Alert History -->
-  <img width="200" src="https://github.com/user-attachments/assets/alert-image-link" />
+  <img width="200" src="./assets/images/home.png" />
+  <img width="200" src="./assets/images/explore.png" />
+  <img width="200" src="./assets/images/profile.png" />
+  <img width="200" src="./assets/images/gps-live.png" />
+  <img width="200" src="./assets/images/gps.png" />
+  <img width="200" src="./assets/images/alert.png" />
 </p>
-
-
-
 
 ## 🏠 Home Screen<br>
 HELP NOW emergency button<br>
