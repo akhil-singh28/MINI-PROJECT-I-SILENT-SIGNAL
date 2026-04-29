@@ -134,7 +134,7 @@ CREATE TABLE contacts (<br>
     is_primary BOOLEAN DEFAULT FALSE<br>
 );
 
-## 📸 Screens Overview<br>
+## 📸 Screens Overview  <br>
 <p align="center">
   <img width="200" src="https://github.com/user-attachments/assets/a1adf955-0305-4fd2-b786-adfec3d99c3c" />
   <img width="300" src="https://github.com/user-attachments/assets/3c0f6e72-7ed9-4938-88c8-0a1bd47a2fde" />
