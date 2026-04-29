@@ -137,11 +137,11 @@ CREATE TABLE contacts (<br>
 ## 📸 Screens Overview  <br>
 <p align="center">
   <img width="200" src="https://github.com/user-attachments/assets/a1adf955-0305-4fd2-b786-adfec3d99c3c" />
-  <img width="300" src="https://github.com/user-attachments/assets/3c0f6e72-7ed9-4938-88c8-0a1bd47a2fde" />
-  <img width="300" src="https://github.com/user-attachments/assets/664881ec-98d1-443b-ade9-76899a85d42c" /><br>
-  <img width="300" src="https://github.com/user-attachments/assets/0747b628-c9cb-417c-8806-f815f1f93141" />
-  <img width="300" src="https://github.com/user-attachments/assets/cea43f3d-ec8d-4eb5-8382-df6596c73f00" />
-  <img width="300" src="https://github.com/user-attachments/assets/417e3844-9d58-4b68-86ca-69096cf610f1" />
+  <img width="200" src="https://github.com/user-attachments/assets/3c0f6e72-7ed9-4938-88c8-0a1bd47a2fde" />
+  <img width="200" src="https://github.com/user-attachments/assets/664881ec-98d1-443b-ade9-76899a85d42c" />
+  <img width="200" src="https://github.com/user-attachments/assets/0747b628-c9cb-417c-8806-f815f1f93141" />
+  <img width="200" src="https://github.com/user-attachments/assets/cea43f3d-ec8d-4eb5-8382-df6596c73f00" />
+  <img width="200" src="https://github.com/user-attachments/assets/417e3844-9d58-4b68-86ca-69096cf610f1" />
 </p>
 
 
