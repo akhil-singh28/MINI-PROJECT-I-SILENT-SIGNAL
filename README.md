@@ -140,25 +140,28 @@ CREATE TABLE contacts (<br>
 
 ## 📸 Screens Overview <br>
 
+## 📸 Screens Overview <br>
+
 <p align="center">
-  <!-- Emergency Alert Screen -->
-  <img width="200" src="https://github.com/user-attachments/assets/Fet9b2B3MRTZUj9yCyV6H" />
+  <!-- Home Screen -->
+  <img width="200" src="https://github.com/user-attachments/assets/home-image-link" />
   
-  <!-- Safety Tools (Audio & Photo Evidence) -->
-  <img width="200" src="https://github.com/user-attachments/assets/GpsnuyP9HNCg9pMYq55Ns" />
+  <!-- Explore Screen -->
+  <img width="200" src="https://github.com/user-attachments/assets/explore-image-link" />
   
-  <!-- Profile (Trusted Contacts) -->
-  <img width="200" src="https://github.com/user-attachments/assets/THySsq7PRDKyLDJsJUQu8" />
+  <!-- Profile Screen -->
+  <img width="200" src="https://github.com/user-attachments/assets/profile-image-link" />
   
-  <!-- Live GPS Tracking (Blank Fields) -->
-  <img width="200" src="https://github.com/user-attachments/assets/M2MKW5KFttvArPJv3SSyc" />
+  <!-- GPS Live Tracking -->
+  <img width="200" src="https://github.com/user-attachments/assets/gps-live-image-link" />
   
-  <!-- Live GPS Tracking (With Coordinates & Address) -->
-  <img width="200" src="https://github.com/user-attachments/assets/wQYyEZghqddt1zPUn3xCc" />
+  <!-- GPS Coordinates -->
+  <img width="200" src="https://github.com/user-attachments/assets/gps-image-link" />
   
   <!-- Alert History -->
-  <img width="200" src="https://github.com/user-attachments/assets/cihW1MBf8XYNaAW2NPH56" />
+  <img width="200" src="https://github.com/user-attachments/assets/alert-image-link" />
 </p>
+
 
 
 
