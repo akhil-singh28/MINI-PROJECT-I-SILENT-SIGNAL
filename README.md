@@ -135,13 +135,6 @@ CREATE TABLE contacts (<br>
 );
 
 ## 📸 Screens Overview  <br>
-
-## 📸 Screens Overview <br>
-
-## 📸 Screens Overview <br>
-
-## 📸 Screens Overview <br>
-
 <p align="center">
   <!-- Home Screen -->
   <img width="200" src="https://github.com/user-attachments/assets/home-image-link" />
